@@ -1,0 +1,6 @@
+{
+  "name": "Deborah & Sebastian's Romantic Tales",
+  "description": "A winning website and frictionless mobile checkout reservation engine for the bespoke luxury hotel, featuring curated romantic experiences, mood-planners, and letter logs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+
+  --color-cream-light: #F9F7F2;
+  --color-cream-dark: #ECE8DE;
+  --color-gold-light: #DFCA9D;
+  --color-gold: #C5A059;
+  --color-gold-dark: #B08E4A;
+  --color-luxury-charcoal: #2A2A2A;
+  --color-luxury-stone: #E5E1D8;
+}
+
+/* Custom styles for luxury touch and premium desktop/mobile look */
+html, body {
+  background-color: #F9F7F2;
+  color: #2A2A2A;
+  font-family: var(--font-sans);
+  scroll-behavior: smooth;
+}
+
+/* Custom styled scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F9F7F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #C5A059;
+}
+
+/* Class helper for high-end shadows and border styling */
+.luxury-inset-border {
+  border: 1px solid rgba(197, 160, 89, 0.3);
+}
+
+.luxury-shadow {
+  box-shadow: 0 20px 50px -15px rgba(197, 160, 89, 0.1);
+}
+
+.gold-glow {
+  transition: all 0.3s ease;
+}
+.gold-glow:focus {
+  outline: none;
+  border-color: #C5A059;
+  box-shadow: 0 0 0 3px rgba(197, 160, 89, 0.15);
+}
+
